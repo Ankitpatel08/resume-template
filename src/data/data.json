@@ -1,0 +1,30 @@
+{
+    "header": {
+        "firstName": "Ankit",
+        "lastName": "Patel",
+        "img": "img/ankit.jpg",
+        "contact": {
+            "phone": "+91-7874814887",
+            "email": "ankitpansuriya007@gmail.com",
+            "linkedin": "#ankitpansuriya"
+        }
+    },
+    "about": {
+
+    },
+    "workExperience": {
+
+    },
+    "education": {
+
+    },
+    "personalSkills": {
+
+    },
+    "professionalSkills": {
+
+    },
+    "awards": {
+
+    }
+}
