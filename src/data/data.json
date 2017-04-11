@@ -10,21 +10,86 @@
         }
     },
     "about": {
-
+        "title": "ABOUT ME",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     "workExperience": {
-
+        "title": "WORK EXPERIENCE",
+        "content": [{
+            "company": "Cybage Software Pvt. Ltd.",
+            "year": "2015-2017",
+            "designation": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },{
+            "company": "Cybage Software Pvt. Ltd.",
+            "year": "2015-2017",
+            "designation": "Software Engineer",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        }]
     },
     "education": {
-
+        "title": "Education Progress",
+        "content": [{
+            "name": "L.D. College of Engineering",
+            "year": "2011-2015",
+            "course": "B.E.",
+            "grade": "CPI - 8.37",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },{
+            "name": "Sahjanand Vidhyalaya",
+            "year": "2011",
+            "course": "H.S.C.",
+            "grade": "82%",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },{
+            "name": "Sahjanand Vidhyalaya",
+            "year": "2009",
+            "course": "S.S.C.",
+            "grade": "87.85%",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        }]
     },
     "personalSkills": {
-
+        "title": "Personal Skills",
+        "content": ["Team Player", "Attentive", "Creative", "Broad-minded", "Organized", "Capable"]
     },
     "professionalSkills": {
-
+        "title": "Professional Skills",
+        "content": [{
+            "skill": "javaScript",
+            "rating": 5
+        },{
+            "skill": "HTML/CSS",
+            "rating": 5
+        },{
+            "skill": "Java",
+            "rating": 5
+        },{
+            "skill": "Photoshop",
+            "rating": 5
+        },{
+            "skill": "MS Office",
+            "rating": 5
+        }]
     },
     "awards": {
-
+        "title": "Awards",
+        "content": [{
+            "name": "Central Placement Coordinator",
+            "year": "2015",
+            "description": "Worked as central Placement coordinator at Training & Placement Cell, LDCE for batch 2015"
+        },{
+            "name": "Organizer Teqnix'13",
+            "year": "2013",
+            "description": "Organized national level technical festival at LDCE"
+        },{
+            "name": "Creative Head, EGVC",
+            "year": "2014",
+            "description": "creative head at Eco Green Vehicle Challenge"
+        },{
+            "name": "student coordinator",
+            "year": "2013",
+            "description": "student coordinator at LDCE Alumni Association"
+        }]
     }
 }

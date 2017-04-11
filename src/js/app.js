@@ -19,6 +19,8 @@ export default class application {
         this.professionalSkillsEl = document.querySelector('#professional-skills');
         this.awardsEl = document.querySelector('#awards');
 
+        console.log("data",data);
+
         this.headerEl.insertAdjacentHTML('beforeend', headerTpl(data.header));
         this.aboutEl.insertAdjacentHTML('beforeend', aboutTpl(data.about));
         this.workExpEl.insertAdjacentHTML('beforeend', workExpTpl(data.workExperience));
