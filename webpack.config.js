@@ -1,9 +1,10 @@
 const path = require('path');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 var config = {
     entry: {
-        app : './src/app'
+        app : './src/js/app'
     },
     output: {
         path: path.resolve(__dirname,'dist'),
@@ -28,7 +29,11 @@ var config = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('[name].css')
+        new ExtractTextPlugin('[name].css'),
+        new CopyWebpackPlugin([{
+            from: path.resolve('./src/index.html'),
+            to: path.resolve('./dist/index.html')
+        }])
     ]
 }
 
