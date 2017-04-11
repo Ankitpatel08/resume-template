@@ -39,6 +39,9 @@ var config = {
         new CopyWebpackPlugin([{
             from: path.resolve('./src/index.html'),
             to: path.resolve('./dist/index.html')
+        },{
+            from: path.resolve('./src/img/'),
+            to: path.resolve('./dist/img/')
         }])
     ]
 }
