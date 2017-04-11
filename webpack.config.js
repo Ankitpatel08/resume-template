@@ -25,7 +25,13 @@ var config = {
                     fallback: 'style-loader',
                     use: ['css-loader', 'sass-loader'],
                 }),
-            },
+            }, {
+                test: /\.hbs$/,
+                loader: 'handlebars-template-loader',
+                query: {
+                    root: "index"
+                }
+            }
         ]
     },
     plugins: [
