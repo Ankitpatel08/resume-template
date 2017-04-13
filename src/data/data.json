@@ -28,7 +28,7 @@
         }]
     },
     "education": {
-        "title": "Education Progress",
+        "title": "EDUCATION PROGRESS",
         "content": [{
             "name": "L.D. College of Engineering",
             "year": "2011-2015",
@@ -50,11 +50,11 @@
         }]
     },
     "personalSkills": {
-        "title": "Personal Skills",
+        "title": "PERSONAL SKILLS",
         "content": ["Team Player", "Attentive", "Creative", "Broad-minded", "Organized", "Capable"]
     },
     "professionalSkills": {
-        "title": "Professional Skills",
+        "title": "PROFESSIONAL SKILLS",
         "content": [{
             "skill": "javaScript",
             "rating": 5
@@ -73,7 +73,7 @@
         }]
     },
     "awards": {
-        "title": "Awards",
+        "title": "AWARDS",
         "content": [{
             "name": "Central Placement Coordinator",
             "year": "2015",

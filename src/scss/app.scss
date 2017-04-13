@@ -11,6 +11,38 @@ $background-image: url('/img/background.jpg');
     padding: 40px;
     box-shadow: 10px 10px 20px #888888;
     border: 1px solid $lightGrayBorder;
+
+    .section-title {
+        font-weight: bold;
+    }
+
+    .work-education-wrapper {
+        display: flex;
+
+        .work-personal-wrapper {
+            padding-right: 20px;
+            flex: 1;
+            border-right: 1px dotted $blue;
+        }
+        #education {
+            padding-left: 20px;
+            flex: 1;
+        }
+    }
+
+    .professional-awards-wrapper {
+        display: flex;
+        #professional-skills {
+            flex: 1;
+            padding-right: 20px;
+            border-right: 1px dotted $blue;
+        }
+
+        #awards {
+            flex: 1;
+            padding-left: 20px;
+        }
+    }
 }
 
 @import 'header';
