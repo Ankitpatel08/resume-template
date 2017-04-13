@@ -1,6 +1,18 @@
-body {
-    p {
-        color: #00FF00;
-    }
-    background-color: #0000FF;
+@import '/common/common';
+$background-image: url('/img/background.jpg');
+
+.background {
+    background: $background-image no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 10px 10px 20px #888888;
+    border: 1px solid $lightGrayBorder;
 }
