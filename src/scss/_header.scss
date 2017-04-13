@@ -1,0 +1,70 @@
+@import '/common/common';
+
+#header {
+    height: 200px;
+    position: relative;
+    .name {
+        width: 30%;
+        display: inline-block;
+        position: absolute;
+        top: 44px;
+        left: 55px;
+        border-right: 1px dotted $blue;
+
+        p {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 35px;
+            text-align: right;
+        }
+
+        .first-name {
+            color: $blue;
+        }
+
+        .last-name {
+            color: $magenta;
+            margin-left: 15px;
+        }
+    }
+
+    .picture {
+        width: 112px;
+        height: 112px;
+        position: absolute;
+        display: inline-block;
+        top: 44px;
+        left: 385px;
+        border-right: 1px dotted $blue;
+        padding-right: 45px;
+    }
+
+    .contact {
+        width: 34%;
+        top: 44px;
+        left: 585px;
+        display: inline-block;
+        position: absolute;
+        margin-top: 20px;
+        li {
+            line-height: 24px;
+        }
+
+        svg {
+            margin-right: 10px;
+            width: 15px;
+            height: 15px;
+        }
+        #phone {
+
+        }
+
+        #email {
+
+        }
+
+        #linkedin {
+
+        }
+    }
+}

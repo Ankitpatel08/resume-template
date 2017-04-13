@@ -1,0 +1,26 @@
+// Breakpoints
+
+// Grid settings
+$max-width: 978px;
+
+// Define your breakpoints
+$mobile-breakpoint: 320px;
+$phablet-breakpoint: 600px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+$desktop-min-breakpoint: 1228px;
+$max-breakpoint: 1500px;
+
+$gt-phone: new-breakpoint(max-width em($mobile-breakpoint + 55) 6); // upto 375 pixel -TOYRIT-26836
+$phone: new-breakpoint(max-width em($phablet-breakpoint - 1) 6); // Styles in this mixin apply to phone only
+$phablet: new-breakpoint(min-width em($phablet-breakpoint) 6);
+$lt-phablet: new-breakpoint(max-width em($phablet-breakpoint - 1) 6);
+$tablet: new-breakpoint(min-width em($tablet-breakpoint) 8);
+$phablet-only: new-breakpoint(min-width em($phablet-breakpoint) max-width em($tablet-breakpoint - 1) 6);
+$lt-tablet: new-breakpoint(max-width em($tablet-breakpoint - 1) 6);
+$tablet-only: new-breakpoint(min-width em($tablet-breakpoint) max-width em($desktop-breakpoint - 1) 8);
+$tablet-landscape-only: new-breakpoint(min-width em($desktop-breakpoint) max-width em($desktop-min-breakpoint - 1) 12);
+$desktop: new-breakpoint(min-width em($desktop-breakpoint), 12);
+$lt-desktop: new-breakpoint(max-width em($desktop-breakpoint - 1) 12);
+$gt-desktop: new-breakpoint(min-width em($desktop-breakpoint + 1), 12);
+$max: new-breakpoint(min-width em($max-breakpoint), 12);
