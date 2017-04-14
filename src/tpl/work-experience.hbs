@@ -1,9 +1,9 @@
 <div>
-    <p class="section-title">{{title}}</p>
+    <div class="section-title">{{title}}</div>
     {{#each content}}
-        <div>{{company}}</div>
-        <div>{{year}}</div>
-        <div>{{designation}}</div>
+        <div class="sub-title">{{company}}</div>
+        <span class="year">{{year}}</span>
+        <span>{{designation}}</span>
         <p>{{description}}</p>
     {{/each}}
 </div>
