@@ -56,20 +56,23 @@
     "professionalSkills": {
         "title": "PROFESSIONAL SKILLS",
         "content": [{
-            "skill": "javaScript",
-            "rating": 5
+            "skill": "JAVASCRIPT",
+            "rating": 4
         },{
             "skill": "HTML/CSS",
-            "rating": 5
+            "rating": 4
         },{
-            "skill": "Java",
-            "rating": 5
+            "skill": "JAVA",
+            "rating": 3
         },{
-            "skill": "Photoshop",
-            "rating": 5
+            "skill": "PHOTOSHOP",
+            "rating": 4
         },{
-            "skill": "MS Office",
-            "rating": 5
+            "skill": "MS OFFICE",
+            "rating": 4
+        },{
+            "skill": "AWS",
+            "rating": 2.5
         }]
     },
     "awards": {
@@ -86,10 +89,6 @@
             "name": "Creative Head, EGVC",
             "year": "2014",
             "description": "creative head at Eco Green Vehicle Challenge"
-        },{
-            "name": "student coordinator",
-            "year": "2013",
-            "description": "student coordinator at LDCE Alumni Association"
         }]
     }
 }
