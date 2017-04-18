@@ -1,10 +1,10 @@
 <div>
-    <p class="section-title">{{title}}</p>
+    <div class="section-title">{{title}}</div>
     {{#each content}}
-        <div>{{name}}</div>
-        <div>{{year}}</div>
-        <div>{{course}}</div>
-        <div>{{grade}}</div>
+        <div class="sub-title">{{name}}</div>
+        <span class="year">{{year}}</span>
+        <span class="course">{{course}}</span>
+        <span class="grade">{{grade}}</span>
         <p>{{description}}</p>
     {{/each}}
 </div>

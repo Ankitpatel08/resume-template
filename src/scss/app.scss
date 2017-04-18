@@ -12,17 +12,30 @@ $background-image: url('/img/background.jpg');
     box-shadow: 10px 10px 20px #888888;
     border: 1px solid $lightGrayBorder;
 
-    .section-title {
+    .section-title, .sub-title {
         font-weight: bold;
+    }
+
+    .sub-title {
+        padding: 10px 0;
+    }
+
+    .year {
+        color: $magenta;
     }
 
     .work-education-wrapper {
         display: flex;
 
+        .section-title {
+            padding-bottom: 17px;
+            border-bottom: 2px dotted $blue;
+        }
+
         .work-personal-wrapper {
             padding-right: 20px;
             flex: 1;
-            border-right: 1px dotted $blue;
+            border-right: 2px dotted $blue;
         }
         #education {
             padding-left: 20px;
@@ -32,10 +45,16 @@ $background-image: url('/img/background.jpg');
 
     .professional-awards-wrapper {
         display: flex;
+
+        .section-title {
+            padding-bottom: 17px;
+            border-bottom: 2px dotted $blue;
+        }
+
         #professional-skills {
             flex: 1;
             padding-right: 20px;
-            border-right: 1px dotted $blue;
+            border-right: 2px dotted $blue;
         }
 
         #awards {
@@ -45,4 +64,12 @@ $background-image: url('/img/background.jpg');
     }
 }
 
+@import 'awards';
+@import 'education';
 @import 'header';
+@import 'personal-skills';
+@import 'professional-skills';
+@import 'work-experience';
+
+
+

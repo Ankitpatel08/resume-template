@@ -11,6 +11,7 @@
   "author": "Ankit Patel",
   "license": "MIT",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.2",
     "extract-text-webpack-plugin": "^2.1.0",
     "handlebars": "^4.0.6",

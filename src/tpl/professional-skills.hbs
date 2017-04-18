@@ -1,9 +1,12 @@
 <div>
-    <p class="section-title">{{title}}</p>
+    <div class="section-title">{{title}}</div>
     <ul>
         {{#each content}}
-            <li>{{skill}}
-                <div>{{rating}}</div>
+            <li class="sub-title">
+                <span class="rating">
+                    <meter value={{rating}} min="0" max="5"></meter>
+                </span>
+                <span class="skill">{{skill}}</span>
             </li>
         {{/each}}
     </ul>
