@@ -1,5 +1,7 @@
 # Resume template
+
 Technologies used : HTML5, SCSS, CSS3, ES6, handlebars
+
 Build tool : Webpack
 
 ********** Steps **********
